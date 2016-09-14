@@ -1,0 +1,22 @@
+{
+    "name": "tstelling/converter",
+    "description": "Convert different types of data in a simple, flexible way.",
+    "keywords": ["tstelling", "converter"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tstelling\\Converter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tstelling\\Converter\\Tests\\": "tests"
+        }
+    }
+}
